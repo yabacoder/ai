@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,900&display=swap');
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #bfc8e6;
+  color: #151b32;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 100px 100px auto;
+  line-height: 1.5;
+}
+
+@font-face {
+  font-family: merriwater;
+  src: url('./fonts/Merriweather/Merriweather-Bold.ttf');
+}
+
+.container {
+  width: 1600px;
+  height: 1200px;
+  background: #23252f;
+  color: #fff;
+  padding-left: 180px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.box1 {
+  padding-right: 110px;
+  padding-top: 90px;
+  width: 55%;
+}
+
+.box1 .date {
+  font-size: 16px;
+}
+
+h2 {
+  font-size: 32px;
+  font-family: merriwater;
+  font-weight: bold;
+}
+
+.intro {
+  font-size: 18px;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+h3 {
+  font-family: merriwatter;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  line-height: 42px;
+}
+
+input,
+textarea,
+select {
+  border: #464856 1px solid;
+  color: #ffffff;
+  background: #23252f;
+  padding: 10px;
+}
+.form-line {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.form-line div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+input[type='text'],
+select {
+  width: 261px;
+  height: 60px;
+}
+
+select::marker {
+  padding-right: 2px;
+}
+
+input[type='checkbox'] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+.checkbox {
+  border: #464856 1px solid;
+  color: #fff;
+  background-color: #23252f;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+}
+textarea {
+  resize: none;
+  width: 547px;
+  height: 118px;
+}
+
+button {
+  width: 289px;
+  height: 74px;
+  color: #000;
+  font-weight: bolder;
+  margin-top: 30px;
+}
+.box2 {
+  background: #2b2d38;
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: space-around;
+  padding-left: 100px;
+}
+
+.guestHost {
+  width: 218px;
+  height: 444px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: flex-start; */
+  justify-content: space-around;
+  margin-top: -200px;
+}
+
+.box2 img {
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.card {
+  display: flex;
+  /* justify-content: space-between; */
+  margin: 25px auto;
+}
+
+.card .name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card .title {
+  font-size: 14px;
+}
+
+.share {
+  width: 112px;
+  height: 60px;
+}
+
+.share div {
+  margin-top: 10px;
+  display: flex;
+}
